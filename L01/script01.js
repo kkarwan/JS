@@ -1,5 +1,5 @@
 lubie = document.getElementById("lubie");
-console.log(lubie);
+console.log(lubie.innerText);
 
 li_collection = document.getElementsByTagName("li");
 console.log(li_collection);
@@ -13,5 +13,5 @@ console.log(names_lista);
 z1 = document.querySelector("h1#lubie");
 console.log(z1);
 
-z2 = document.querySelectorAll("ul li");
+z2 = document.querySelectorAll("input[name='plec']");
 console.log(z2);
