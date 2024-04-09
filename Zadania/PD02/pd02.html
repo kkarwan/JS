@@ -6,9 +6,13 @@
    <title>Document</title>
 </head>
 <body>
-   Waga: <input type="number" id="waga" step="0.1"><br>
-   Wzrost: <input type="number" id="Wzrost" step="0.1"><br>
+   <!-- <form action=""> -->
+   Waga: <input type="number" id="waga" step="0.1" min="0"><br>
+   Wzrost: <input type="number" id="wzrost" step="0.1" min="0"><br>
    <input type="button" onclick="bmi()" value="Oblicz moje BMI">
+   <p id="wynik"></p>
+<!-- </form> -->
+
    <script src="pd02.js"></script>
 </body>
 </html>
