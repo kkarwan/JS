@@ -1,0 +1,20 @@
+body {
+   margin:0 auto;
+   width:900px;
+}
+
+#duze {
+   height: 360px;
+   width: 600px;
+}
+div#male img {
+   width: 150px;
+   height: 100px;
+   border:2px solid white;
+   transition: 0.5s ease;
+}
+
+div#male img:hover {
+   border:2px solid black;
+   transition: 0.5s ease;
+}
